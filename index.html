@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Aleaksandr Babtsou</title>
+
+  <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+  <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+  <link href="styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="description">
+      <img class="avatar" src="/assets/img/iam.jpg" alt="">
+      <div class="contacts">
+        <h1>Aliaksandr Babtsou<h1>
+            <p> <a href="https://github.com/babtsoualiaksandr">Github</a></p>
+      </div>
+    </div>
+  </header>
+  <section class="main">
+
+    <div class="education">
+
+      <p>Education</p>
+      <p class="arrow">V</p>
+
+    </div>
+
+    <ul class="items">
+      <li class="item">1989-1994</li>
+      <li class="item">St. Petersburg Higher Military School of Communications</li>
+
+      <li class="item">2019-?2020</li>
+      <li class="item">Rolling-School</li>
+    </ul>
+
+  </section>
+  <!-- Swiper -->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="descriptionProject">
+          <h2>The Yalow</h2>
+          <p>Discription project</p>
+        </div>
+        <img id="theyalow" src="./assets/img/theyelow.png" alt="The Yalow">
+      </div>
+      <div class="swiper-slide">
+        <div class="descriptionProject">
+          <h2>Repair Design Project</h2>
+          <p>Discription project</p>
+        </div>
+        <img id="repair" src="./assets/img/repair.png" alt="Repair Design Project">
+      </div>
+    </div>
+    <!-- Add Arrows -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+
+
+
+
+  <!-- Initialize Swiper -->
+
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      loop: true
+    });
+  </script>
+
+
+
+
+  <!-- Custom scripts for this template -->
+  <script src="index.js"></script>
+
+</body>
+
+</html>
