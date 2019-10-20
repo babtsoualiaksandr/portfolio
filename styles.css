@@ -97,7 +97,6 @@ body {
 .main .education .arrow:hover {
   color: red;
   background-color: #0af515;
-  border-radius: 50% 50%;
 }
 
 .main .items {

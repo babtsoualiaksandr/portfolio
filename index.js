@@ -3,10 +3,12 @@ const URL = window.location;
 
 
 function showEducation(event) {
-
+  console.log(items.style)
   if (items.style.display === 'none') {
-    items.style.display = 'inline';
+    console.log('display === none')
+    items.style.display = 'block';
   } else {
+    console.log('display != none')
   items.style.display = 'none';
   }
   
@@ -38,6 +40,8 @@ function jump(event) {
 document.querySelector('#theyalow').addEventListener('click', jump);
 
 document.querySelector('#repair').addEventListener('click', jump);
+
+
 
 
 /* host: "127.0.0.1:5500"
