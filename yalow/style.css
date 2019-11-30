@@ -1,0 +1,714 @@
+@font-face {
+    font-family: 'Lucida Sans';
+    src: url('assets/fonts/LucidaSans.eot');
+    src: url('assets/fonts/LucidaSans.eot?#iefix') format('embedded-opentype'), url('assets/fonts/LucidaSans.woff2') format('woff2'), url('assets/fonts/LucidaSans.woff') format('woff'), url('assets/fonts/LucidaSans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Segoe WP';
+    src: url('assets/fonts/SegoeWP.eot');
+    src: url('assets/fonts/SegoeWP.eot?#iefix') format('embedded-opentype'), url('assets/fonts/SegoeWP.woff2') format('woff2'), url('assets/fonts/SegoeWP.woff') format('woff'), url('assets/fonts/SegoeWP.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lucida Sans';
+    src: url('assets/fonts/LucidaSans-Italic.eot');
+    src: url('assets/fonts/LucidaSans-Italic.eot?#iefix') format('embedded-opentype'), url('assets/fonts/LucidaSans-Italic.woff2') format('woff2'), url('assets/fonts/LucidaSans-Italic.woff') format('woff'), url('assets/fonts/LucidaSans-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Asap';
+    src: url('assets/fonts/Asap-Regular.eot');
+    src: url('assets/fonts/Asap-Regular.eot?#iefix') format('embedded-opentype'), url('assets/fonts/Asap-Regular.woff2') format('woff2'), url('assets/fonts/Asap-Regular.woff') format('woff'), url('assets/fonts/Asap-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Segoe WP';
+    src: url('assets/fonts/SegoeWP-Light.eot');
+    src: url('assets/fonts/SegoeWP-Light.eot?#iefix') format('embedded-opentype'), url('assets/fonts/SegoeWP-Light.woff2') format('woff2'), url('assets/fonts/SegoeWP-Light.woff') format('woff'), url('assets/fonts/SegoeWP-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PT Sans Caption';
+    src: url('assets/fonts/ptsans/PTSans-CaptionBold.eot');
+    src: url('assets/fonts/ptsans/PTSans-CaptionBold.eot?#iefix') format('embedded-opentype'), url('assets/fonts/ptsans/PTSans-CaptionBold.woff2') format('woff2'), url('assets/fonts/ptsans/PTSans-CaptionBold.woff') format('woff'), url('assets/fonts/ptsans/PTSans-CaptionBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PT Sans Narrow';
+    src: url('assets/fonts/ptsans/PTSans-NarrowBold.eot');
+    src: url('assets/fonts/ptsans/PTSans-NarrowBold.eot?#iefix') format('embedded-opentype'), url('assets/fonts/ptsans/PTSans-NarrowBold.woff2') format('woff2'), url('assets/fonts/ptsans/PTSans-NarrowBold.woff') format('woff'), url('assets/fonts/ptsans/PTSans-NarrowBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PT Sans Caption';
+    src: url('assets/fonts/ptsans/PTSans-Caption.eot');
+    src: url('assets/fonts/ptsans/PTSans-Caption.eot?#iefix') format('embedded-opentype'), url('assets/fonts/ptsans/PTSans-Caption.woff2') format('woff2'), url('assets/fonts/ptsans/PTSans-Caption.woff') format('woff'), url('assets/fonts/ptsans/PTSans-Caption.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PT Sans';
+    src: url('assets/fonts/ptsans/PTSans-BoldItalic.eot');
+    src: url('assets/fonts/ptsans/PTSans-BoldItalic.eot?#iefix') format('embedded-opentype'), url('assets/fonts/ptsans/PTSans-BoldItalic.woff2') format('woff2'), url('assets/fonts/ptsans/PTSans-BoldItalic.woff') format('woff'), url('assets/fonts/ptsans/PTSans-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'PT Sans';
+    src: url('assets/fonts/ptsans/PTSans-Bold.eot');
+    src: url('assets/fonts/ptsans/PTSans-Bold.eot?#iefix') format('embedded-opentype'), url('assets/fonts/ptsans/PTSans-Bold.woff2') format('woff2'), url('assets/fonts/ptsans/PTSans-Bold.woff') format('woff'), url('assets/fonts/ptsans/PTSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PT Sans';
+    src: url('assets/fonts/ptsans/PTSans-Regular.eot');
+    src: url('assets/fonts/ptsans/PTSans-Regular.eot?#iefix') format('embedded-opentype'), url('assets/fonts/ptsans/PTSans-Regular.woff2') format('woff2'), url('assets/fonts/ptsans/PTSans-Regular.woff') format('woff'), url('assets/fonts/ptsans/PTSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PT Sans Narrow';
+    src: url('assets/fonts/ptsans/PTSans-Narrow.eot');
+    src: url('assets/fonts/ptsans/PTSans-Narrow.eot?#iefix') format('embedded-opentype'), url('assets/fonts/ptsans/PTSans-Narrow.woff2') format('woff2'), url('assets/fonts/ptsans/PTSans-Narrow.woff') format('woff'), url('assets/fonts/ptsans/PTSans-Narrow.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PT Sans';
+    src: url('assets/fonts/ptsans/PTSans-Italic.eot');
+    src: url('assets/fonts/ptsans/PTSans-Italic.eot?#iefix') format('embedded-opentype'), url('assets/fonts/ptsans/PTSans-Italic.woff2') format('woff2'), url('assets/fonts/ptsans/PTSans-Italic.woff') format('woff'), url('assets/fonts/ptsans/PTSans-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('assets/fonts/SegoeUI-BoldItalic.eot');
+    src: url('assets/fonts/SegoeUI-BoldItalic.eot?#iefix') format('embedded-opentype'), url('assets/fonts/SegoeUI-BoldItalic.woff2') format('woff2'), url('assets/fonts/SegoeUI-BoldItalic.woff') format('woff'), url('assets/fonts/SegoeUI-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('assets/fonts/SegoeUI-Bold.eot');
+    src: url('assets/fonts/SegoeUI-Bold.eot?#iefix') format('embedded-opentype'), url('assets/fonts/SegoeUI-Bold.woff2') format('woff2'), url('assets/fonts/SegoeUI-Bold.woff') format('woff'), url('assets/fonts/SegoeUI-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('assets/fonts/SegoeUI-Italic.eot');
+    src: url('assets/fonts/SegoeUI-Italic.eot?#iefix') format('embedded-opentype'), url('assets/fonts/SegoeUI-Italic.woff2') format('woff2'), url('assets/fonts/SegoeUI-Italic.woff') format('woff'), url('assets/fonts/SegoeUI-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('assets/fonts/SegoeUI.eot');
+    src: url('assets/fonts/SegoeUI.eot?#iefix') format('embedded-opentype'), url('assets/fonts/SegoeUI.woff2') format('woff2'), url('assets/fonts/SegoeUI.woff') format('woff'), url('assets/fonts/SegoeUI.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('assets/fonts/SegoeUI-Light.eot');
+    src: url('assets/fonts/SegoeUI-Light.eot?#iefix') format('embedded-opentype'), url('assets/fonts/SegoeUI-Light.woff2') format('woff2'), url('assets/fonts/SegoeUI-Light.woff') format('woff'), url('assets/fonts/SegoeUI-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: local('Open Sans'), local('OpenSans'), url('assets/fonts/open-sans/opensans.woff2') format('woff2'), url('assets/fonts/open-sans/opensans.woff') format('woff'), url('assets/fonts/open-sans/opensans.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+.wrapper-body {
+    background: rgb(182, 178, 178);
+}
+
+.wrapper-header {
+    background-image: url("./assets/images/Layer20.png");
+    width: 1300px;
+    height: 566px;
+    margin: 0 auto;
+    display: block;
+}
+
+.heading {
+    height: 110px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.logo {
+    margin-top: 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo_img {
+    width: 83px;
+    height: 83px;
+    background-image: url("./assets/images/Shape8copy3.svg"), url("./assets/images/Shape8copy4.svg");
+    background-blend-mode: normal;
+}
+
+.logo h1 {
+    text-transform: uppercase;
+    font-size: 45px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-family: "Lucida Sans";
+    font-style: italic;
+    text-align: center;
+}
+
+.nav {
+    align-self: flex-end;
+}
+
+.nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 454px;
+    height: 42px;
+    background-image: linear-gradient(0deg, #f5c505 0%, #f5c505 100%);
+    box-shadow: -6px -5px 0px 0px rgba(245, 197, 5, 0.5), -12px -10px 0px 0px rgba(245, 197, 5, 0.27);
+    text-transform: uppercase;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+
+.nav ul li {
+    font-size: 17px;
+    letter-spacing: 0px;
+    color: #9b7d08;
+    font-family: "Segoe WP";
+}
+
+.nav ul li:hover {
+    background-color: #000000;
+    color: white;
+}
+
+.videoCool {
+    height: 77%;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.next-btn-left {
+    margin-left: 0px;
+}
+
+.next-btn-right {
+    margin-right: 0px;
+}
+
+.videoCool p {
+    text-transform: uppercase;
+    font-size: 63px;
+    letter-spacing: 1px;
+    font-family: "Asap";
+    font-weight: 400;
+    text-align: center;
+}
+
+.text_p1 {
+    color: #f5c506;
+}
+
+.text_p2 {
+    color: #ffff;
+}
+.wrapper-icon {
+    background-image: url("./assets/images/Layer7.png");
+    width: 1300px;
+    height: 212px;
+    margin: 0 auto;
+    display: block;
+}
+
+.icon-area {
+    font-family: Segoe-wp-light;
+    font-size: 27px;
+    text-transform: uppercase;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 212px;
+}
+
+.skills-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: 0.3s;
+    width: 335px;
+    height: 212px;
+}
+
+.skills-item:hover {
+    background-color: rgba(253, 249, 0, 0.733)
+}
+
+.skills-item:hover.skills-item p {
+    font-weight: 600;
+}
+
+.skills-item:nth-child(2n) {
+    border-right: 1px solid #d5d5d5;
+    border-left: 1px solid #d5d5d5;
+}
+
+
+
+.wrapper-twitter {
+    background-image: url("./assets/images/Layer10copy3.png");
+    width: 1300px;
+    height: 509px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.news-slider {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.video-block {
+    display: flex;
+    justify-content: left;
+    align-items: center
+}
+
+.loren {
+    height: 100px;
+    margin-left: 79px;
+    font-size: 37px;
+    color: #ffffff;
+    font-family: "PT Sans";
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.date-block {
+    margin-left: 79px;
+    height: 86px;
+    width: 113px;
+    background-color: #ddb101;
+    text-align: center;
+    display: block;
+}
+
+.date {
+    font-size: 51px;
+    letter-spacing: 1px;
+    line-height: 38px;
+    color: #ffffff;
+    font-family: "Segoe UI";
+    font-weight: bold;
+}
+
+.month {
+    font-size: 21px;
+    line-height: 38px;
+    color: #b26529;
+    font-family: "Segoe UI";
+}
+
+.description {
+    width: 340px;
+    height: 233px;
+    color: white;
+    background-color: #ec9e03;
+    padding: 30px;
+    padding-top: 17px;
+    font-family: Segoe-wp-light;
+    font-size: 23px;
+    line-height: 36px;
+    letter-spacing: 2.7px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.twitter {
+    width: 330px;
+    height: 232px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider-time {
+    margin-left: 136px;
+    margin-top: 31px;
+}
+
+.wrapper-desktop {
+    background-image: url("./assets/images/Layer32.png");
+    width: 1300px;
+    height: 499px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    background-image: url("./assets/images/Layer32.png")
+}
+
+.description-bottom {
+    text-transform: uppercase;
+    
+    margin-top: 2%;
+    justify-self: center;
+    width: 918px;
+    height: 130px;
+    font-size: 43px;
+    color: #f5c506;
+    font-family: "PT Sans";
+    font-weight: 400;
+}
+
+.slider-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.gadgets {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: flex-end;
+    align-content: center;
+    flex: 2;
+}
+
+
+.list {
+    text-align: left;
+    flex: 1;
+}
+
+.list ul {
+    margin-top: 15%;
+    list-style-image: url("./assets/images/Ellipse4copy3.svg")
+}
+
+.list ul li {
+    font-size: 22px;
+    letter-spacing: 0px;
+    color: #a9a9a7;
+    font-family: "Open Sans";
+    font-weight: 400
+}
+
+.wrapper-footer {
+    background-image: url("./assets/images/Layer31.png");
+    width: 1300px;
+    height: 64px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+.logo-footer {
+    margin-left: -17px;
+    padding-left: 90px;
+    padding-top: 9px;
+    margin-top: -8px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    align-content: center;
+}
+
+.logo-footer-img {
+    width: 56px;
+    height: 56px;
+    background-image: url("./assets/images/Logo-small.svg");
+}
+
+.logo-footer h1 {
+    text-transform: uppercase;
+    font-size: 29px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-family: "Lucida Sans";
+    font-style: italic;
+    text-align: center;
+}
+
+@media (max-width: 800px) {
+    .wrapper-body {
+        width: 640px;
+    }
+    .wrapper-header {
+        background-image: none;
+        background: #3d3d3b;
+        width: 640px;
+        height: 100%;
+
+    }
+    .heading {
+        height: 62px;
+        justify-content: flex-start;
+    }
+    .logo {
+        width: 186px;
+        margin-top: 0px;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .logo_img {
+        width: 41px;
+        height: 41px;
+        background-image: url("./assets/images/LogoImgMob.svg");
+
+    }
+    .logo h1 {
+        font-size: 19px;
+    }
+    .nav {
+        
+        align-self: center;
+    }
+    .nav ul {
+        display: flex;
+        width: 454px;
+        height: 42px;
+        box-shadow: none;
+    }
+    .nav ul li {        
+        font-size: 17px;
+    }
+
+
+    .nav ul li:hover {
+        background-color: #000000;
+        color: white;
+    }
+    .videoCool {
+        height: 77%;
+        margin-top: 0px;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-around;
+        align-content: center;
+    }
+    .next-btn-left {
+        margin-left: 0px;
+    }
+    .next-btn-right {
+        margin-right: 0px;
+    }
+    .videoCool p {
+        display: none;
+        text-transform: uppercase;
+        font-size: 63px;
+        letter-spacing: 1px;
+        font-family: "Asap";
+        font-weight: 400;
+        text-align: center;
+    }
+    .main-video video {
+        width: 640px;
+    }
+    .next-btn-left {
+        display: none;
+    }
+    .next-btn-right {
+        display: none;
+    }
+    .wrapper-icon {
+        background-image: url("./assets/images/Layer7.png");
+        width: 640px;
+        height: 174px;
+        margin: 0 auto;
+        display: block;
+    }
+    .icon-area {
+        font-family: Segoe-wp-light;
+        font-size: 23px;
+        text-transform: uppercase;
+        margin-top: 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        height: 174px;
+    }
+    .skills-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        transition: 0.3s;
+        width: 200px;
+        height: 175px;
+    }
+    .skills-item:hover {
+        background-color: rgba(253, 249, 0, 0.733)
+    }
+    .skills-item:hover.skills-item p {
+        font-weight: 600;
+    }
+    .skills-item:nth-child(2n) {
+        border-right: 1px solid #d5d5d5;
+        border-left: 1px solid #d5d5d5;
+    }
+    .skills p {
+        padding: 12px 0 38px;
+        transition: 0.2s;
+    }
+    .wrapper-twitter {
+        background-image: url("./assets/images/Layer10copy3.png");
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .news-slider {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .video-block {
+        display: flex;
+        justify-content: left;
+        align-items: center
+    }
+    .loren {
+        display: none;
+        height: 100px;
+        margin-left: 79px;
+        font-size: 37px;
+        letter-spacing: 0px;
+        color: #ffffff;
+        font-family: "PT Sans";
+        font-weight: 400;
+        padding: 0px 0;
+        text-transform: uppercase;
+    }
+    .date-block {
+        display: none;
+    }
+    .description {
+        width: 299px;
+        color: white;
+        background-color: #ec9e03;
+        padding: 30px;
+        padding-top: 17px;
+        font-family: Segoe-wp-light;
+        font-size: 23px;
+        line-height: 36px;
+        letter-spacing: 2.7px;
+        box-sizing: border-box;
+        position: relative;
+    }
+    .twitter {
+        width: 330px;
+        height: 232px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .slider-time {
+        display: none;
+    }
+    .wrapper-desktop {
+        width: 100%;
+    }
+    .section-bottom {
+        display: flex;
+        flex-direction: column;
+    }
+    .description-bottom {
+        margin-left: 33px;
+        font-size: 39px;
+        align-self: stretch;
+    }
+    .slider-bottom {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .gadgets {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: flex-end;
+        align-content: center;
+        flex: 2;
+    }
+    
+    .list {
+        display: none;
+        flex: 1;
+    }
+    .list ul {
+        margin-top: 15%;
+        list-style-image: url("./assets/images/Ellipse4copy3.svg")
+    }
+    .list ul li {
+        font-size: 22px;
+        letter-spacing: 0px;
+        color: #a9a9a7;
+        font-family: "Open Sans";
+        font-weight: 400
+    }
+    .wrapper-footer {
+        width: 100%;
+    }
+}
