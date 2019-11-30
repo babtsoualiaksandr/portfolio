@@ -16,12 +16,12 @@ document.querySelector('.education').addEventListener('click', showEducation);
 function jump(event) {
   console.log(event);
   if (event.target.id === 'theyalow') {
-    const url = 'http://'+URL.host + '/TheYalow/index.html';
+    const url = 'http://'+URL.host + '/yalow/index.html';
     window.location.assign(url);    
   }
 
   if (event.target.id === 'repair') {
-    const url = 'http://'+URL.host + '/repair-design-project/index.html';
+    const url = 'http://'+URL.host + '/repair/index.html';
     window.location.assign(url);
   }
   
