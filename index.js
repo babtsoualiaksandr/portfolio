@@ -12,13 +12,13 @@ document.querySelector('.education').addEventListener('click', showEducation);
 
 function jump(event) {
   if (event.target.id === 'theyalow') {
-    const url = 'http://'+URL.host + '/yalow/index.html';
+    const url = 'https://babtsoualiaksandr.github.io/theyalow/';
     window.location.assign(url);    
   }
   if (event.target.id === 'repair') {
-    const url = 'http://'+URL.host + '/repair/index.html';
+    const url = 'https://babtsoualiaksandr.github.io/repair-design-project/';
     window.location.assign(url);
   }  
 }
-console.log(document.querySelector('.swiper-container'));
+
 document.querySelector('.swiper-container').addEventListener('click', jump);
