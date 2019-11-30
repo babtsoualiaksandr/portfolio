@@ -75,36 +75,27 @@ body {
 }
 
 .main .education {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 400px;
-  margin: 0 auto;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  font-size: 35px;
+  -webkit-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.14), 0 2px 3px 0 rgba(0, 0, 0, 0.12), 0 0px 4px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.14), 0 2px 3px 0 rgba(0, 0, 0, 0.12), 0 0px 4px 0 rgba(0, 0, 0, 0.2);
+  padding: 1%;
+  margin: 2%;
+  font-size: 15px;
+  border-radius: 10%;
 }
 
-.main .education .arrow {
-  font-size: 35px;
+.main .education:hover {
   cursor: pointer;
-}
-
-.main .education .arrow:hover {
-  color: red;
-  background-color: #0af515;
+  color: #2b2828;
+  -webkit-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.14), 0 4px 9px 0 rgba(0, 0, 0, 0.12), 0 1px 12px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.14), 0 4px 9px 0 rgba(0, 0, 0, 0.12), 0 1px 12px 0 rgba(0, 0, 0, 0.2);
 }
 
 .main .items {
-  list-style-type: none;
   text-align: left;
   font-weight: bold;
   font-size: 15px;
   display: none;
+  list-style: none;
 }
 
 .swiper-slide {

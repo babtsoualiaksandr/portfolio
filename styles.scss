@@ -47,11 +47,9 @@ body {
         width: 600px;
         margin: 0 auto;
         align-items: flex-start;
-
         .avatar {
             border-radius: 50% 50%;
         }
-
         .contacts {
             padding-left: 10%;
         }
@@ -67,30 +65,26 @@ body {
     flex-direction: column;
 
     .education {
-        display: flex;
-        width: 400px;
-        margin: 0 auto;
-        align-items: center;
-        justify-content: space-between;
-        font-size: 35px;
+        box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.14), 0 2px 3px 0 rgba(0, 0, 0, 0.12), 0 0px 4px 0 rgba(0, 0, 0, 0.2);
+        padding: 1%;
+        margin: 2%;
+        font-size: 15px;
+        border-radius: 10%;
 
-        .arrow {
-            font-size: 35px;
-            cursor:pointer;
-            &:hover {
-                color: red;
-                background-color: rgb(10, 245, 21);
-                
-            }
+        &:hover {
+            cursor: pointer;
+            color: rgb(43, 40, 40);
+            box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.14), 0 4px 9px 0 rgba(0, 0, 0, 0.12), 0 1px 12px 0 rgba(0, 0, 0, 0.2);
         }
     }
-    .items {
-        list-style-type: none;
+
+    .items {        
         text-align: left;
         font-weight: bold;
         font-size: 15px;
         display: none;
-        }
+        list-style: none;
+    }
 }
 
 .swiper-slide {
@@ -100,8 +94,6 @@ body {
 .swiper-slide {
     img {
         width: 55%;
-        cursor:pointer;
+        cursor: pointer;
     }
 }
-
-
